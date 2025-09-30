@@ -14,11 +14,13 @@ src/main/java/com/example/springxml/JavaConfigApp.java
 mvn compile exec:java -Dexec.mainClass=com.example.springxml.JavaConfigApp
 
 
-****C — Annotations-based (component scanning + @Component + @Autowired) ****
+**C — Annotations-based (component scanning + @Component + @Autowired)**
 src/main/java/com/example/springxml/CalculatorComponent.java
 src/main/java/com/example/springxml/CalculatorUser.java
 src/main/java/com/example/springxml/AppConfigAnnotation.java
 src/main/java/com/example/springxml/AnnotationApp.java
+
+
 mvn compile exec:java -Dexec.mainClass=com.example.springxml.AnnotationApp
 
 
